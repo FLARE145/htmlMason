@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+  <html>
+    <head>
+	  <title>Mason - HTML Helper</title>
+	  <meta charset="utf-8">
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	  <meta name="description" content="Links to websites that are helpful, fun, or otherwise cool.">
+      <link rel="stylesheet" href="./masonStyle.css">
+	  <script src="./masonScript.js"></script>
+    </head>
+    <body>
+      <main>
+		<div>
+			<h1>Mason</h1>
+		</div>
+		<div>
+			<div class='modeButton' id='createBlock' onclick='openWorkspace("createBlock")'>
+				Create Block
+			</div>
+			<div class='modeButton' id='buildHtml' onclick='openWorkspace("buildHtml")'>
+				Build HTML
+			</div>
+		</div>
+		<hr>
+		<div id='workspace'>
+			<div class='hidden' id="createBlockWorkspace">
+				<h2>Create Block</h2>
+				<p style="display:inline">Name:</p>
+				<textarea rows='1'></textarea>
+				<p style="display:inline">Info(optional):</p>
+				<textarea rows='1'></textarea>
+				<div>
+					<div class='addButton' onclick='addBuilderElement("htmlSection")'>
+						Add HTML section
+					</div>
+					<div class='addButton' onclick='addBuilderElement("input")'>
+						Add Input
+					</div>
+				</div>
+				<div id='builderElements'>
+				</div>
+			</div>
+			<div class='hidden' id="buildHtmlWorkspace">
+				<h2>Build HTML</h2>
+			</div>
+		</div>
+      </main>
+    </body>  
+  </html>

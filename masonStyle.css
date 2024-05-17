@@ -1,0 +1,73 @@
+/*standerd HTML*/
+body{
+	background-color: #0c1021;
+}
+
+h1{
+	color: green;
+}
+
+h2{
+	color: green;
+}
+
+p{
+	color: green;
+}
+
+hr{
+	border-color: green;
+}
+
+textarea{
+	background: #0c1021;
+	border-color: green;
+	color: greenyellow;
+	resize: none;
+}
+
+/*custom classes*/
+
+.hidden{
+	display: none;
+}
+
+.modeButton{
+	color: green;
+	cursor: pointer;
+	user-select: none;
+	margin: 10px 0px;
+}
+.modeButton:hover{
+	color: yellow;
+}
+
+.builderElement{
+	display: flex;
+	align-items: center;
+	background-color: #090c18;
+	margin: 10px 0px;
+}
+
+.addButton{
+	display: inline;
+	color: green;
+	cursor: pointer;
+	user-select: none;
+	margin: 10px;
+}
+.addButton:hover{
+	color: yellow;
+}
+
+.deleteButton{
+	font-size: 24px;
+	display: inline;
+	color: darkred;
+	cursor: pointer;
+	user-select: none;
+	margin: 10px;
+}
+.deleteButton:hover{
+	color: red;
+}

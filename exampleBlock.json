@@ -1,0 +1,10 @@
+{
+	"name": "defaultBlock",
+	"info": "",
+	"rawHTML": "<p>⎀MASON⎀</p>",
+	"inputs": {
+		"1": {
+			"textarea" : "true"
+		}
+	}
+}
